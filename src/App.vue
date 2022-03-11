@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo" src="./assets/Subway-PNG-Free-Image.png">
     <h1 class="display-4">GCC Edit Replacement</h1>
     <div class="row text-start ">
       <div class="col-sm h4">Style Code</div>
