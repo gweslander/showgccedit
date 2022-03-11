@@ -19,7 +19,7 @@
     </div>
 
 
-    <button class="btn btn-outline-primary">Add</button>
+    <button class="btn btn-outline-primary" v-on:click="addoneatbottom()">Add</button>
     <button class="btn btn-outline-danger" v-on:click="deletelast()">Delete Last</button>
 
 
@@ -43,6 +43,9 @@ export default {
   methods: {
     deletelast() {
       this.stylecodes.pop();
+    },
+    addoneatbottom(){
+       this.stylecodes[this.stylecodes.length]= "argh";
     },
     deletethis(index) {
       console.log(index);
