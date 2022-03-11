@@ -45,7 +45,8 @@ export default {
       this.stylecodes.pop();
     },
     addoneatbottom(){
-       this.stylecodes[this.stylecodes.length]= "argh";
+      var newitem = {};
+       this.stylecodes[this.stylecodes.length]= newitem;
     },
     deletethis(index) {
       console.log(index);
